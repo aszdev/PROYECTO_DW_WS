@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Cliente">
+      <implementation-class>servicios.Cliente</implementation-class>
+    </service>
+    <service name="Renta">
+      <implementation-class>servicios.Renta</implementation-class>
+    </service>
+    <service name="TipoPago">
+      <implementation-class>servicios.TipoPago</implementation-class>
+    </service>
+    <service name="Vehiculo">
+      <implementation-class>servicios.Vehiculo</implementation-class>
+    </service>
+  </services>
+  <clients>
+  </clients>
+  <jsr109>false</jsr109>
+</jax-ws>

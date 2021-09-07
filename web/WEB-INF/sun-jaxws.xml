@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="servicios.Cliente" name="Cliente" url-pattern="/Cliente"/>
+  <endpoint implementation="servicios.Renta" name="Renta" url-pattern="/Renta"/>
+  <endpoint implementation="servicios.TipoPago" name="TipoPago" url-pattern="/TipoPago"/>
+  <endpoint implementation="servicios.Vehiculo" name="Vehiculo" url-pattern="/Vehiculo"/>
+</endpoints>
